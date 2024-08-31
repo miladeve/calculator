@@ -9,7 +9,7 @@
 
 ### 1. Calculate Core Operation
 
-**`GET` `/api/calculator/calculate/core`**
+**`GET` `/api/calculator/calculate/core`** 
 **Description**: Perform a core arithmetic operation using predefined operations.
 
 **Request Parameters**:
@@ -24,7 +24,7 @@ GET /api/calculator/calculate/core?operation=ADD&num1=10&num2=5
 
 ### 2. Chain Calculate Operations
 
-**`POST` `/api/calculator/chainCalculate`**  
+**`POST` `/api/calculator/chainCalculate`**   
 **Description**: Chain multiple operations together to perform calculations.
 
 **Request Parameters**:
@@ -44,7 +44,7 @@ POST /api/calculator/chainCalculate?initial=10
 
 ### 3. Add Custom Operation
 
-**`POST` `/api/calculator/addOperation`**
+**`POST` `/api/calculator/addOperation`** 
 **Description**: Add a new custom operation to the calculator.
 
 **Request Parameters**:
@@ -55,7 +55,7 @@ POST /api/calculator/chainCalculate?initial=10
 **Example**:
 ```bash
 POST /api/calculator/addOperation?operation=POWER
-body text `pow(a, b)`
+body text **pow(a, b)**
 ```
 
 ### 4. Calculate Dynamic Operation
