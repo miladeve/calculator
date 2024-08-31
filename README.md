@@ -55,7 +55,7 @@ POST /api/calculator/chainCalculate?initial=10
 **Example**:
 ```bash
 POST /api/calculator/addOperation?operation=POWER
-body text **pow(a, b)**
+body text pow(a, b)
 ```
 
 ### 4. Calculate Dynamic Operation
