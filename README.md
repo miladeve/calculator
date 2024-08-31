@@ -9,7 +9,7 @@
 
 ### 1. Calculate Core Operation
 
-**`GET` `/api/calculator/calculate/core`** 
+**`GET` `/api/calculator/calculate/core`**   
 **Description**: Perform a core arithmetic operation using predefined operations.
 
 **Request Parameters**:
@@ -44,7 +44,7 @@ POST /api/calculator/chainCalculate?initial=10
 
 ### 3. Add Custom Operation
 
-**`POST` `/api/calculator/addOperation`** 
+**`POST` `/api/calculator/addOperation`**   
 **Description**: Add a new custom operation to the calculator.
 
 **Request Parameters**:
